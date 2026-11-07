@@ -2,7 +2,7 @@
 
 ## AI Tool Used
 
-- OpenAI Codex (ChatGPT)
+-  ChatGPT
 
 ## How It Was Used and Impact
 
