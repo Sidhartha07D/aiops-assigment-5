@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+mlruns/
+mlartifacts/
+*.db
+*.db-*
+*.sqlite*
+*.joblib
+*.mov
+*.mp4
+*.zip
+.DS_Store

@@ -1,0 +1,8 @@
+Ray CPUs: 2.0
+PASS share: 213/1000 = 21.3% candidate at weight 0.2
+PASS stickiness: 200/200 repeat calls stayed on the same arm
+PASS identical redeploy: 200/200 stayed on the same arm
+PASS monotonic increase: 0/1000 candidate customers moved back; new candidate share 50.9%
+PASS X-Beta override: 50/50 prod customers received v2
+All five Ray canary checks passed.
+Open http://127.0.0.1:8000/docs, then press Enter here to stop Ray Serve. [33m(raylet)[0m Task ServeController.graceful_shutdown failed. There are infinite retries remaining, so the task will be retried. Error: The actor is dead because it was killed by `ray.kill`.

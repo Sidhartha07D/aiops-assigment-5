@@ -1,0 +1,44 @@
+=== Default thresholds ===
+{
+  "prod": {
+    "mae": 11.9553,
+    "mae_rush": 19.679859894921194,
+    "mae_rain": 11.622736418511066,
+    "p95_ms": 1.7007206997277533
+  },
+  "candidate": {
+    "mae": 6.104850000000001,
+    "mae_rush": 8.579509632224168,
+    "mae_rain": 6.285311871227364,
+    "p95_ms": 1.511559300001863
+  },
+  "criteria": {
+    "mae": true,
+    "p95_ms": true,
+    "mae_rush": true,
+    "mae_rain": true
+  },
+  "promote": true
+}
+=== min_rel_gain=0.60 ===
+{
+  "prod": {
+    "mae": 11.9553,
+    "mae_rush": 19.679859894921194,
+    "mae_rain": 11.622736418511066,
+    "p95_ms": 1.543604150106148
+  },
+  "candidate": {
+    "mae": 6.104850000000001,
+    "mae_rush": 8.579509632224168,
+    "mae_rain": 6.285311871227364,
+    "p95_ms": 1.6952918502283865
+  },
+  "criteria": {
+    "mae": false,
+    "p95_ms": true,
+    "mae_rush": true,
+    "mae_rain": true
+  },
+  "promote": false
+}

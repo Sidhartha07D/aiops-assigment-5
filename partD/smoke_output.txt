@@ -1,0 +1,9 @@
+PASS healthz reports v1
+PASS valid prediction, version, and rounded positive ETA
+PASS sanity: longer distance increases ETA
+PASS sanity: heavier traffic increases ETA
+PASS batch predictions preserve input order
+PASS invalid input returns 422 with matching request ID
+PASS client request ID is echoed in header and body
+PASS 30-request p95 9.52 ms <= 80.00 ms
+Smoke gate passed: release may proceed.
